@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header__style, .header-desc__style{
+    margin-left: 10rem;
+    padding-top: 1.5rem;
+}
+.home-desc__style{
+    background-size: cover;
+    height: 80vh;
+}
+
+.new-desc__style{
+    background-size: cover;
+    height: 80vh;
+}
+.third-desc__style{
+    background-size: cover;
+    height: 80vh;
+}
+
+.input{
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 600px;
+    background: #e7e7e7;
+    border: none;
+    border-radius: 2px; 
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background: #e7e7e7;
+    border: none; 
+    border-radius: 2px;
+    margin-left: 2rem;
+}
+
+.display{
+    text-align: center;;
+}
+
+.temp, .desc, .lon, .lat{
+    font-weight: bold;
+    text-align: center;
+}
