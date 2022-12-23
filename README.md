@@ -1,1 +1,1 @@
-This is a weather app.
+This is a weather app. It predicts the weather based on location using te Open Weather API. It also shows the coordinates of the location.
