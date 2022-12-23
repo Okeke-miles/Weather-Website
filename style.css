@@ -6,27 +6,24 @@
     padding: 0;
 }
 
-.header__style, .header-desc__style{
-    margin-left: 10rem;
-    padding-top: 1.5rem;
-}
-.home-desc__style{
+
+body{
+    /* background-color: #ffaf7a; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("../wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg");
     background-size: cover;
-    height: 80vh;
+    background-color: #808080;
 }
 
-.new-desc__style{
-    background-size: cover;
-    height: 80vh;
+.header__style{
+    text-align: center;
+    margin-top: 10rem;
 }
-.third-desc__style{
-    background-size: cover;
-    height: 80vh;
-}
+
 
 .input{
     text-align: center;
-    margin-bottom: 10vh;
+    margin: 10vh;
 }
 
 input[type="text"]{
@@ -46,6 +43,14 @@ input[type="submit"]{
     margin-left: 2rem;
 }
 
+.inputValue, .input, .button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input::placeholder{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .display{
     text-align: center;;
 }
@@ -53,4 +58,6 @@ input[type="submit"]{
 .temp, .desc, .lon, .lat{
     font-weight: bold;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 1rem;
 }
