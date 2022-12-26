@@ -20,7 +20,7 @@ fetch("https://api.openweathermap.org/data/2.5/weather?q="+inputValue.value+"&ap
 
         name.innerHTML = nameValue;
         temp.innerHTML = `Temperature: ${tempValue}`;
-        desc.innerHTML = `Description: ${descValue}`;
+        desc.innerHTML = `Weather: ${descValue}`;
         lon.innerHTML = `Longitude: ${lonValue}`;
         lat.innerHTML = `Latitude: ${latValue}`;
         

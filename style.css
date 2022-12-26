@@ -55,9 +55,14 @@ input::placeholder{
     text-align: center;;
 }
 
-.temp, .desc, .lon, .lat{
+.temp, .desc, .lon, .lat, .name{
     font-weight: bold;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 1rem;
 }
+
+.button:hover{
+    background-color: #dbf3fa;
+}
+
