@@ -1,3 +1,4 @@
+
 *,
 *::before,
 *::after{
@@ -12,8 +13,12 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-image: url("../wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     background-color: #808080;
+    /* height: 80vh; */
+    min-height: 5px;
 }
+ 
 
 .header__style{
     text-align: center;
@@ -65,4 +70,24 @@ input::placeholder{
 .button:hover{
     background-color: #dbf3fa;
 }
+
+@media (max-width: 767px) {
+    body {
+     width: 4rem;
+     height: 50rem;
+   }
+
+   input[type="text"]{
+    width: 200px;
+    margin-bottom: 1rem;
+   }
+
+   .header__style, .temp, .desc, .lon, .lat, .name{
+    margin-left: 3rem;
+   }
+
+   input[type="submit"]{
+    margin-left: 2px;
+   }
+ }
 
