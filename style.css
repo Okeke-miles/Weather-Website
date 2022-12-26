@@ -84,6 +84,7 @@ input::placeholder{
 
    .header__style, .temp, .desc, .lon, .lat, .name{
     margin-left: 3rem;
+    color:#ffffff
    }
 
    input[type="submit"]{
